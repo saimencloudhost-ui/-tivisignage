@@ -17,4 +17,4 @@ try {
     die("Koneksi Database Gagal: Terjadi kesalahan pada sistem.");
 }
 
-// Sengaja tidak ditutup dengan tanda ?> untuk mencegah output spasi/enter yang merusak header HTTP
+// Sengaja tidak ditutup dengan tanda ?> 
