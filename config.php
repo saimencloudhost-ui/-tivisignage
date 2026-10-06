@@ -1,3 +1,4 @@
+
 <?php
 // Parameter koneksi murni membaca dari Environment Variables Coolify
 $host = getenv('DB_HOST');
