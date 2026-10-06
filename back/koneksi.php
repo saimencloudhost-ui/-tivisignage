@@ -1,4 +1,3 @@
-sesuaikan juga di file koneksi.php :
 <?php
 // Membaca pengaturan dari Environment Variables Coolify dengan nilai default
 $host     = getenv('DB_HOST') ?: 'xrokuqrydyahcy1lrcc3otdl';
