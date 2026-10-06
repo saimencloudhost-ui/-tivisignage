@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$db_name = "db_tvsaimen";
+$db_name = "db_saimentv";
 $username = "root"; // Sesuaikan dengan user database Anda
 $password = "";     // Sesuaikan dengan password database Anda
 
