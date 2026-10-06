@@ -1,18 +1,18 @@
 <?php
-// Parameter koneksi membaca dari Environment Variables Coolify
-$host = getenv('DB_HOST') ?: 'xrokuqrydyahcy1lrcc3otdl';
+// Parameter koneksi murni membaca dari Environment Variables Coolify
+$host = getenv('DB_HOST');
 $port = (int)(getenv('DB_PORT') ?: 3306);
-$user = getenv('DB_USERNAME') ?: 'root';
+$user = getenv('DB_USERNAME');
 $pass = getenv('DB_PASSWORD');
-$db   = getenv('DB_DATABASE') ?: 'db_saimentv';
+$db   = getenv('DB_DATABASE');
 
 // Panggilan koneksi pertama
 $conn = new mysqli($host, $user, $pass, $db, $port);
 if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
+    die("Koneksi gagal: Silakan hubungi administrator.");
 }
 ?>
 <?php 
-// 2. Konfigurasi Database (Panggilan kedua sesuai format Anda)
+// 2. Konfigurasi Database (Panggilan kedua)
 $conn = new mysqli($host, $user, $pass, $db, $port); 
 ?>
