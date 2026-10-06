@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 if (!isset($_SESSION['username'])) {
     echo json_encode(["status" => "error", "message" => "Sesi habis, silakan login ulang."]);
