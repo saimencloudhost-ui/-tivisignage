@@ -1,10 +1,10 @@
 <?php
 // Parameter koneksi membaca dari Environment Variables Coolify
-$host = getenv('DB_HOST') ?: 'xrokuqrydyahcy1lrcc3otdl';
+$host = getenv('DB_HOST');
 $port = (int)(getenv('DB_PORT') ?: 3306);
-$user = getenv('DB_USERNAME') ?: 'root';
-$pass = getenv('DB_PASSWORD') ?: 'Saimen123456';
-$db   = getenv('DB_DATABASE') ?: 'db_saimentv';
+$user = getenv('DB_USERNAME');
+$pass = getenv('DB_PASSWORD');
+$db   = getenv('DB_DATABASE');
 
 // Panggilan koneksi pertama
 $conn = new mysqli($host, $user, $pass, $db, $port);
