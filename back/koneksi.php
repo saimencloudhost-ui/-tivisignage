@@ -16,5 +16,4 @@ try {
     // Sembunyikan detail teknis database dari publik demi keamanan
     die("Koneksi Database Gagal: Terjadi kesalahan pada sistem.");
 }
-
-// Sengaja tidak ditutup dengan tanda ?> 
+?> 
