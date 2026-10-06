@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 
 // Pastikan user sudah login sebelum bisa menghapus
